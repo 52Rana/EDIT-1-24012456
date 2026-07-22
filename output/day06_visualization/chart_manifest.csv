@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同生命周期用户的流失率差异如何？,bar,0-12个月新用户流失率最高，远高于长期老用户,仅展示分组流失率，未叠加投诉、满意度等干扰变量
+02,02_behavior_scatter.png,下单次数与返现金额分布，流失用户是否集中在低值区间？,scatter,流失用户集中在低订单低返现区域，高活跃用户留存更好,仅二维分布，无法区分多重行为特征共同影响
+03,03_ordered_line.png,流失率随用户使用时长的有序变化趋势,line,用户周期越长，流失率持续线性下降,静态阶段对比，非真实时序追踪数据
+04,04_composition_chart.png,平台各生命周期用户整体规模占比,pie_or_bar,新用户占平台总用户近四成，是最大群体,环形图不适合精确对比流失率数值差异
+05,day06_visualization_summary.png,电商用户流失与行为数据整体概览,dashboard,多图统一证明新用户是流失核心人群，活跃度正向关联留存,综合图缩小细节，如需精准数值需查看独立图表
